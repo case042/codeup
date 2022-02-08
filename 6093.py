@@ -1,4 +1,7 @@
 n = int(input())
-a = []
-for i in range(n-1,-1,-1):
-    print(a[i],end=' ')
+a = input().split()
+
+a.reverse()
+
+for i in range(n):
+    print(a[i],end=" ")
